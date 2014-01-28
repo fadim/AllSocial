@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <RelativeLayout
+	        xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:background="@drawable/android_background">
+		    <GridView
+		        android:id="@+id/social_media"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentBottom="true"
+		        android:layout_alignParentTop="true"
+		        android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+		        android:gravity="center"
+		        android:horizontalSpacing="10dp"
+		        android:verticalSpacing="10dp"
+		        android:numColumns="2"
+		        android:paddingTop="5dp"
+		        android:scrollingCache="false"
+		        android:stretchMode="columnWidth">
+		    </GridView>
+        </RelativeLayout>
